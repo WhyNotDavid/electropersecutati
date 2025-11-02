@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tehnologia - Războiul Curenților</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=IM+Fell+English&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 text-gray-900 antialiased">
+
+    <header class="bg-gray-900 text-white shadow-md">
+        <div class="container mx-auto max-w-5xl p-6">
+            <h1 class="text-3xl font-bold text-center">Războiul Curenților</h1>
+            <p class="text-center text-lg text-gray-300 mt-1">AC vs. DC: Bătălia care a Electrificat Lumea</p>
+        </div>
+        
+        <nav class="bg-gray-800">
+            <div class="container mx-auto max-w-5xl flex justify-center space-x-2 md:space-x-4">
+                <a href="home.html" class="nav-link text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-3 rounded-md text-sm md:text-base font-medium">Acasă</a>
+                <a href="players.html" class="nav-link text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-3 rounded-md text-sm md:text-base font-medium">Actorii Principali</a>
+                <a href="tech.html" class="nav-link text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-3 rounded-md text-sm md:text-base font-medium active">Tehnologia</a>
+                <a href="events.html" class="nav-link text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-3 rounded-md text-sm md:text-base font-medium">Evenimente Cheie</a>
+                <a href="winner.html" class="nav-link text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-3 rounded-md text-sm md:text-base font-month">Câștigătorul</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto max-w-5xl p-6 mt-6">
+        <section class="bg-white p-8 rounded-lg shadow-lg mb-8">
+            <h2 class="text-2xl font-semibold mb-4 text-gray-800">Diferența de Bază: Transmisia</h2>
+            <p class="text-gray-700 leading-relaxed mb-4">
+                Principalul obstacol tehnic era trimiterea energiei pe distanțe lungi.
+            </p>
+            <ul class="list-disc list-inside space-y-3 mb-6">
+                <li class="text-gray-700"><span class="font-bold text-blue-700">DC (Curent Continuu):</span> Curge într-o singură direcție. Era dificil și ineficient să i se "ridice" sau să i se "coboare" tensiunea. Acest lucru însemna că pierdea multă putere pe distanță, necesitând ca centralele electrice să fie amplasate foarte aproape (la o milă sau două) de client.</li>
+                <li class="text-gray-700"><span class="font-bold text-red-700">AC (Curent Alternativ):</span> Își inversează direcția de mai multe ori pe secundă. Folosind transformatoare, tensiunea curentului alternativ putea fi ușor "ridicată" la niveluri incredibil de înalte pentru transmisie ieftină pe distanțe lungi și apoi "coborâtă" la niveluri mai sigure pentru utilizarea în case și întreprinderi.</li>
+            </ul>
+            <div class="mt-6">
+                <img src="images/ac-dc-diagrama.png" 
+                     alt="O diagramă simplă care arată fluxul Curentului Alternativ (AC) și al Curentului Continuu (DC)."
+                     class="w-full max-w-lg mx-auto rounded-md object-contain aspect-video bg-white">
+            </div>
+        </section>
+
+        <section class="bg-white p-8 rounded-lg shadow-lg mb-8">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Invențiile Care Au Făcut AC-ul Viabil</h2>
+            <div class="text-gray-700 leading-relaxed space-y-4">
+                <p>
+                    Avantajul curentului alternativ nu era doar teoretic; el a fost deblocat de două invenții cruciale, ambele perfecționate și brevetate de Nikola Tesla.
+                </p>
+                <ul class="list-disc list-inside space-y-3 mt-4">
+                    <li>
+                        <span class="font-bold">Motorul cu Inducție AC:</span> Înainte de Tesla, motoarele electrice practice funcționau doar pe curent continuu. Motoarele AC timpurii erau ineficiente și greu de pornit. Tesla a inventat motorul polifazat cu inducție, care folosea câmpuri magnetice rotative (create natural de curentul alternativ) pentru a roti motorul. Era simplu, fiabil, nu avea piese de uzură (precum periile de la motoarele DC) și a făcut ca puterea AC să fie utilă pentru industrie.
+                    </li>
+                    <li>
+                        <span class="font-bold">Transformatorul:</span> Deși nu a fost inventat de Tesla, sistemul său polifazat a fost primul care a folosit transformatoarele în mod eficient. Un transformator este un dispozitiv remarcabil de simplu (doar bobine de sârmă) care poate "transforma" curentul alternativ de la o tensiune joasă la una înaltă și invers, cu o eficiență de peste 99%. Aceasta a fost piesa lipsă a puzzle-ului transmisiei.
+                    </li>
+                </ul>
+                <p class="mt-4">
+                    Combinația dintre motorul eficient al lui Tesla și abilitatea transformatorului de a schimba tensiunile a creat un sistem complet, de la generare la transmisie și până la utilizarea industrială și casnică.
+                </p>
+            </div>
+        </section>
+        <section class="bg-white p-8 rounded-lg shadow-lg mb-8">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Bătălia Devine Murdară</h2>
+            <div class="text-gray-700 leading-relaxed space-y-3">
+                <p>
+                    Pe măsură ce avantajele curentului alternativ deveneau clare, Edison și susținătorii săi au lansat o campanie publică de inducere a fricii pentru a-l discredita. Ei au prezentat curentul alternativ ca fiind periculos de letal și nepotrivit pentru uz casnic.
+                </p>
+                <p>
+                    Într-una dintre cele mai infame părți ale acestei campanii, asociații lui Edison au electrocutat public animale fără stăpân, inclusiv câini, pisici și chiar un elefant pe nume Topsy, folosind curent alternativ pentru a "dovedi" pericolul acestuia.
+                </p>
+                <p>
+                    Această campanie, finanțată în secret de Edison și condusă de un inginer pe nume Harold P. Brown, a dus și la dezvoltarea scaunului electric, care folosea curent alternativ, într-o încercare de a asocia sistemul lui Westinghouse cu moartea în mintea publicului.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center p-6 text-gray-600 text-sm">
+        <p>O simplă pagină web despre o bucată complexă de istorie.</p>
+    </footer>
+</body>
+</html>

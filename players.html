@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actorii Principali - Războiul Curenților</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=IM+Fell+English&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 text-gray-900 antialiased">
+
+    <header class="bg-gray-900 text-white shadow-md">
+        <div class="container mx-auto max-w-5xl p-6">
+            <h1 class="text-3xl font-bold text-center">Războiul Curenților</h1>
+            <p class="text-center text-lg text-gray-300 mt-1">AC vs. DC: Bătălia care a Electrificat Lumea</p>
+        </div>
+        
+        <nav class="bg-gray-800">
+            <div class="container mx-auto max-w-5xl flex justify-center space-x-2 md:space-x-4">
+                <a href="home.html" class="nav-link text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-3 rounded-md text-sm md:text-base font-medium">Acasă</a>
+                <a href="players.html" class="nav-link text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-3 rounded-md text-sm md:text-base font-medium active">Actorii Principali</a>
+                <a href="tech.html" class="nav-link text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-3 rounded-md text-sm md:text-base font-medium">Tehnologia</a>
+                <a href="events.html" class="nav-link text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-3 rounded-md text-sm md:text-base font-medium">Evenimente Cheie</a>
+                <a href="winner.html" class="nav-link text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-3 rounded-md text-sm md:text-base font-month">Câștigătorul</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto max-w-5xl p-6 mt-6">
+        <section class="bg-white p-8 rounded-lg shadow-lg mb-8">
+            <h2 class="text-2xl font-semibold mb-6 text-gray-800">Actorii Principali</h2>
+            <div class="space-y-8">
+                <div class="border border-gray-200 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-3 text-blue-700">Echipa Curent Continuu (DC)</h3>
+                    <p class="text-lg font-semibold">Thomas Edison</p>
+                    <div class="md:flex md:space-x-6">
+                        <img src="images/edison.jpg" 
+                             alt="Un portret alb-negru al lui Thomas Edison."
+                             class="w-32 h-32 rounded-full mx-auto md:mx-0 flex-shrink-0 mb-4 md:mb-0 object-cover bg-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Deja un inventator de faimă mondială, Edison își construise imperiul pe curentul DC prin compania sa, Edison General Electric. Sistemul său a fost primul care a luminat părți din New York City. El a susținut că DC era mai sigur, deoarece AC folosea tensiuni periculos de mari. Edison a fost un promotor neobosit și un concurent feroce, hotărât să-și protejeze interesele tehnologice și financiare.
+                        </p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-3 text-red-700">Echipa Curent Alternativ (AC)</h3>
+                    <p class="text-lg font-semibold">Nikola Tesla & George Westinghouse</p>
+                    <div class="md:flex md:space-x-6 mb-6">
+                        <img src="images/tesla.jpg" 
+                             alt="Un portret alb-negru al lui Nikola Tesla."
+                             class="w-32 h-32 rounded-full mx-auto md:mx-0 flex-shrink-0 mb-4 md:mb-0 object-cover bg-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            <span class="font-bold">Tesla</span>, un inventator genial și fost angajat al lui Edison, a proiectat motorul AC polifazat și sistemele de transformatoare care au făcut posibilă utilizarea curentului alternativ la scară largă. El a fost geniul vizionar din spatele tehnologiei.
+                        </p>
+                    </div>
+                    <div class="md:flex md:space-x-6">
+                        <img src="images/westinghouse.jpg" 
+                             alt="Un portret alb-negru al lui George Westinghouse."
+                             class="w-32 h-32 rounded-full mx-auto md:mx-0 flex-shrink-0 mb-4 md:mb-0 object-cover bg-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            <span class="font-bold">Westinghouse</span>, un industriaș și inventator la rândul său, a văzut potențialul imens în proiectele lui Tesla. El a cumpărat brevetele și a oferit flerul în afaceri și sprijinul financiar pentru a construi un imperiu concurent bazat pe AC, gata să conteste dominația lui Edison.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center p-6 text-gray-600 text-sm">
+        <p>O simplă pagină web despre o bucată complexă de istorie.</p>
+    </footer>
+</body>
+</html>
